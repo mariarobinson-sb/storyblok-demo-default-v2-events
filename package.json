@@ -11,19 +11,19 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.13.2",
-    "@storyblok/eslint-config": "^0.3.0",
-    "@storyblok/nuxt": "^6.2.4",
-    "@storyblok/richtext": "^3.2.0",
-    "@storyblok/vue": "^8.2.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@storyblok/eslint-config": "^0.4.0",
+    "@storyblok/nuxt": "^8.0.1",
+    "@storyblok/richtext": "^3.5.0",
+    "@storyblok/vue": "^9.2.1",
     "@tailwindcss/typography": "^0.5.16",
     "clone-deep": "^4.0.1",
-    "eslint": "^9.24.0",
-    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-tailwindcss": "^3.18.2",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.1",
-    "nuxt": "^3.16.2",
-    "swiper": "^11.2.6",
+    "lint-staged": "^16.1.2",
+    "nuxt": "^3.17.7",
+    "swiper": "^11.2.10",
     "vite-plugin-mkcert": "^1.17.8"
   }
 }
