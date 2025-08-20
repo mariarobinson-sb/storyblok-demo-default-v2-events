@@ -9,8 +9,8 @@ export default defineNuxtConfig({
         If you would like to use this as a template for your project, simply provide the access token here.
         Also please remove line 13 (usePlugin) as well as the file plugins/storyblok.js.
         */
-        // accessToken: process.env.STORYBLOK_TOKEN,
-        usePlugin: false,
+        accessToken: 'ITbgTte17WS6aDrviHSTBQtt', // process.env.STORYBLOK_TOKEN,
+        // usePlugin: false,
       },
     ],
     '@nuxtjs/tailwindcss',
