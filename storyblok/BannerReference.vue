@@ -1,21 +1,22 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
 defineProps({ blok: Object });
 
-const modules = [Navigation];
+const modules = [Navigation, Autoplay];
 </script>
 
 <template>
   <Swiper
     v-editable="blok"
     :slides-per-view="1"
-    :space-between="50"
+    :space-between="10"
     :navigation="true"
     :auto-height="true"
+    :autoplay="true"
     :modules="modules"
     class="swiper"
   >
