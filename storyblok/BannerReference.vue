@@ -18,6 +18,7 @@ const modules = [Autoplay, Navigation];
     :autoplay="true"
     :auto-height="true"
     :modules="modules"
+    :loop="true"
     class="swiper"
   >
     <SwiperSlide v-for="banner in blok.banners" :key="banner.uuid">
